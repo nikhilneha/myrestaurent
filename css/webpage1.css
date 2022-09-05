@@ -6,11 +6,11 @@
 
 .main{
   height: 1800px;
-  width: 1495px;
+  width: 1350px;
 }
 .header{
 height: 50px;
-width: 1495px;
+width: 1350px;
 background-color: brown;
 }
 .header ul{
@@ -18,7 +18,7 @@ background-color: brown;
 }
 .header ul li{
     float: left;
-    width: 371px;
+    width: 335px;
     height: 50px;
     line-height: 50px;
      border: 1px solid white;
@@ -51,14 +51,14 @@ background-color: brown;
 }
 .container{
     height: 680px;
-    width: 1495px;
+    width: 1350px;
     background-color: black;
 }
 .container h1{
     text-align: center;
 }
 .side{
-    width: 390px;
+    width: 300px;
     height: 680px;
     background-color: black;
     float: left;
@@ -80,7 +80,7 @@ button{
     width: 100px;
     padding: 15px 0;
     text-align: center;
-    margin: 20px 130px;
+    margin: 20px 100px;
     position: absolute;
     border: 2px solid white;
     border-radius: 25px;
@@ -97,17 +97,17 @@ button:hover{
     text-transform: uppercase;
 }
 .content{
-    width:995px ;
+    width:900px ;
     height: 680px;
     float: left;
 }
 .content img{
-    width: 995px;
+    width: 900px;
     height: 680px;
     float: left;
 }
 .side1{
-    width: 110px;
+    width: 150px;
     height: 680px;
     float: left;
 }
@@ -161,17 +161,17 @@ button:hover{
 }
 .gallery{
     height: 330px;
-    width: 1495px;
+    width: 1350px;
     float: left;
 }
 .product{
     height: 330px;
-    width: 473px;
+    width: 420px;
     float: left;
 }
 .product img{
     height: 300px;
-    width: 543px;
+    width: 500px;
     border: 3px solid red;
 }
 .product h4{
@@ -180,16 +180,16 @@ button:hover{
 }
 .gallery1{
     height: 330px;
-    width: 1495;
+    width: 1350px;
 }
 .product1{
     height: 330px;
-    width: 473px;
+    width: 420px;
     float: left;
 }
 .product1 img{
     height: 300px;
-    width: 543px;
+    width: 500px;
     border: 3px solid red;
 }
 .product1 h4{
@@ -198,16 +198,16 @@ button:hover{
 }
 .gallery2{
     height: 330px;
-    width: 1495;
+    width: 1350px;
 }
 .product2{
     height: 330px;
-    width: 473px;
+    width: 420px;
     float: left;
 }
 .product2 img{
     height: 300px;
-    width: 543px;
+    width: 500px;
     border: 3px solid red;
 }
 .product2 h4{
@@ -216,7 +216,7 @@ button:hover{
 }
 .footer{
     height: 70px;
-    width: 1495px;
+    width: 1350px;
     background-color: black;
     float: left;
 }
