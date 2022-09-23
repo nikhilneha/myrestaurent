@@ -6,12 +6,14 @@
 
 .main{
   height: 1800px;
-  width: 1350px;
+  width: 100$;
+  position: relative;
 }
 .header{
 height: 50px;
-width: 1350px;
+width: 100%;
 background-color: brown;
+position: fixed;
 }
 .header ul{
     list-style: none;
@@ -51,8 +53,9 @@ background-color: brown;
 }
 .container{
     height: 680px;
-    width: 1350px;
+    width: 100%;
     background-color: black;
+    float: left;
 }
 .container h1{
     text-align: center;
@@ -75,6 +78,8 @@ text-decoration: solid;
     color: darkgrey;
     text-transform: capitalize;
     font-size: 18px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 button{
     width: 100px;
@@ -97,26 +102,25 @@ button:hover{
     text-transform: uppercase;
 }
 .content{
-    width:900px ;
+    width:870px;
     height: 680px;
     float: left;
 }
 .content img{
-    width: 900px;
+    width: 870px;
     height: 680px;
     float: left;
 }
 .side1{
-    width: 150px;
+    width: 170px;
     height: 680px;
     float: left;
 }
 .side1 ul{
     list-style: none;
+    margin: 60px;
 }
 .side1 ul li{
-    position: relative;
-    text-align: center;
     font-size: 20px;
     margin-top: 10px;
 }
@@ -133,90 +137,133 @@ button:hover{
 .side1 h3{
     color: darkgrey;
     margin-top: 200px;
+    text-align: center;
 }
 .fa-square-facebook{
     color: blue;
     font-size: 30px;
     display: block;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 .fa-instagram{
     color: red;
     font-size: 30px;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 .fa-twitter{
     color: skyblue;
     font-size: 30px;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 .fa-linkedin{
     color:blue;
     font-size: 30px;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 .gallery{
-    height: 330px;
-    width: 1350px;
+    height: 380px;
+    width: 100%;
     float: left;
 }
 .product{
-    height: 330px;
-    width: 420px;
+    height: 380px;
+    width: 447px;
     float: left;
 }
 .product img{
     height: 300px;
-    width: 500px;
+    width: 447px;
     border: 3px solid red;
 }
 .product h4{
     text-align: center;
     text-transform: uppercase;
 }
+.product input{
+    width: 140px;
+    height: 40px;
+    margin: 3px 140px;
+    background-color: yellowgreen;
+    color: darkblue;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.product input:hover{
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+}
 .gallery1{
-    height: 330px;
-    width: 1350px;
+    height: 380px;
+    width: 100%;
 }
 .product1{
-    height: 330px;
-    width: 420px;
+    height: 380px;
+    width: 447px;
     float: left;
 }
 .product1 img{
     height: 300px;
-    width: 500px;
+    width: 447px;
     border: 3px solid red;
 }
 .product1 h4{
     text-align: center;
     text-transform: uppercase;
 }
+.product1 input{
+    width: 140px;
+    height: 40px;
+    margin: 3px 140px;
+    background-color: yellowgreen;
+    color: darkblue;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.product1 input:hover{
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+}
 .gallery2{
-    height: 330px;
-    width: 1350px;
+    height: 380px;
+    width: 100%;
 }
 .product2{
-    height: 330px;
-    width: 420px;
+    height: 380px;
+    width: 447px;
     float: left;
 }
 .product2 img{
     height: 300px;
-    width: 500px;
+    width: 447px;
     border: 3px solid red;
 }
 .product2 h4{
     text-align: center;
     text-transform: uppercase;
 }
+.product2 input{
+    width: 140px;
+    height: 40px;
+    margin: 3px 140px;
+    background-color: yellowgreen;
+    color: darkblue;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.product2 input:hover{
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+}
 .footer{
     height: 70px;
-    width: 1350px;
+    width: 100%;
     background-color: black;
     float: left;
 }
